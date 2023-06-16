@@ -62,25 +62,38 @@ const TaskForm = () => {
   }, [id]);
 
   return (
-    <div>
-      <h2>Añadir Usuario</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          name="title"
-          type="text"
-          placeholder="Add Task"
-          onChange={handleChange}
-          value={task.title}
-        />
-        <textarea
-          name="description"
-          placeholder="Add Description"
-          rows={3}
-          onChange={handleChange}
-          value={task.description}
-        ></textarea>
-        <button type="submit">Submit</button>
-      </form>
+    <div className="flex justify-center items-center h-screen bg-slate-900 ">
+      <div className="text-2xl bg-slate-800 p-4 rounded-md ">
+        {id ? (
+          <h2 className="font-bold uppercase text-4xl text-white py-5 text-center">Editar Tarea</h2>
+        ) : (
+          <h2 className="font-bold uppercase text-4xl text-white py-5 text-center">Añadir Tarea</h2>
+        )}
+        <form onSubmit={handleSubmit} className="text-center flex flex-col">
+          <input
+            name="title"
+            type="text"
+            placeholder="Add Task"
+            onChange={handleChange}
+            value={task.title}
+            className="mb-4 px-3 py-3 rounded font-mono"
+          />
+          <textarea
+            name="description"
+            placeholder="Add Description"
+            rows={3}
+            onChange={handleChange}
+            value={task.description}
+            className="mb-4 px-4 py-2 rounded font-mono"
+          ></textarea>
+          <button
+            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
     </div>
   );
 };
