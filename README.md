@@ -2,6 +2,8 @@
 # Descripción del proyecto
 Este proyecto es una aplicación CRUD que utiliza la arquitectura "Cliente-Servidor" para su funcionamiento. El objetivo principal es aprender a conectar una base de datos a una aplicación web, realizar peticiones a la base de datos a través de una API REST y enviar solicitudes a la base de datos.
 
+![Texto alternativo](https://res.cloudinary.com/dduanwa3x/image/upload/v1686966946/Captura_de_pantalla_2023-06-16_205414_fcnkge.png)
+
 ## Tecnologías utilizadas
 - **Frontend:** React, TypeScript y Tailwind CSS.
 - **Backend:** Node.js con Express y mysql2.
@@ -29,3 +31,5 @@ Este proyecto es una aplicación CRUD que utiliza la arquitectura "Cliente-Servi
     npm install
     npm run dev
 ```
+
+
