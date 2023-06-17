@@ -14,17 +14,6 @@ Este proyecto es una aplicación CRUD que utiliza la arquitectura "Cliente-Servi
 - El backend se basa en Node.js y utiliza el framework Express para crear una API REST que facilita la comunicación entre el frontend y la base de datos MySQL.
 - La conexión con la base de datos se realiza mediante el paquete mysql2, que proporciona una interfaz sencilla y eficiente para interactuar con MySQL desde Node.js.
 
-## **Dependencias**
-- ### React
-- ### Tailwind
-- ### Express
-- ### Nodemon
-- ### mysql2
-
-### Base de datos MySql
-
----
-
 ## Backend
 ### Descripcion 
 ### 📁 **src/** Contiene el archivo principal index.js  y la conexion a la base de datos.
