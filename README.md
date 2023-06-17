@@ -1,12 +1,8 @@
 # AddTask-Cliente-Servidor
-# Crud Empleados Frontend y Backend 
-
 # Descripción del proyecto
-
 Este proyecto es una aplicación CRUD que utiliza la arquitectura "Cliente-Servidor" para su funcionamiento. El objetivo principal es aprender a conectar una base de datos a una aplicación web, realizar peticiones a la base de datos a través de una API REST y enviar solicitudes a la base de datos.
 
 ## Tecnologías utilizadas
-
 - **Frontend:** React, TypeScript y Tailwind CSS.
 - **Backend:** Node.js con Express y mysql2.
 - **Base de datos:** MySQL.
